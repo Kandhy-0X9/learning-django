@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Django Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .card {
+            background: rgb(12, 74, 11);
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 35px;
+            border-radius: 12px;
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+
+        p {
+            color: #4274b5;
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            background: #3b3e3f;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background: #d83912;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Hello, {{ name }}!</h1>
+
+        <p>Welcome to my first HTML template.</p>
+
+        <p>I'm learning {{ topic }} and Python.</p>
+
+        <a class="button" href="https://www.djangoproject.com/">
+            Explore Django
+        </a>
+    </div>
+</body>
+</html>
